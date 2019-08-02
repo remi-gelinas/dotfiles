@@ -1,0 +1,12 @@
+[
+    {
+        "clean": ["~"]
+    },
+    {
+        "link": {
+            "~/.alacritty.yml": {
+                "relative": true
+            }
+        }
+    }
+]

@@ -1,0 +1,9 @@
+# Homebrew
+echo "Updating Homebrew and Homebrew packages..."
+brew update
+brew upgrade
+brew cask upgrade
+
+# macOS
+echo "Updating macOS and system utilities..."
+softwareupdate -i -a

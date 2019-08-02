@@ -1,0 +1,25 @@
+{
+    "languageserver": {
+        "reason": {
+            "command": "reason-language-server",
+            "filetypes": ["reason"]
+        }
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.filetypes": [
+        "javascript",
+        "javascriptreact"
+    ],
+    "prettier.tslintIntegration": true,
+    "prettier.eslintIntegration": true,
+    "tslint.jsEnable": false,
+    "tslint.autoFixOnSave": true,
+    "tslint.suppressWhileTypeErrorsPresent": true,
+    "tsserver.enableJavascript": false,
+    "coc.preferences.formatOnSaveFiletypes": [
+        "javascript", "javascriptreact", "typescript", "typescriptreact", "json"],
+    "json.format.enable": true,
+    "json.enable": true,
+    "jest.watch": true
+}
+ 

@@ -1,0 +1,22 @@
+# Load Homebrew shell completions; this is done here instead of in environment.zsh because it needs to be done before zplugin is bootstrapped
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+fi
+
+# Zplugin bootstrapping
+source "$HOME/.zplugin/bin/zplugin.zsh"
+autoload -Uz _zplugin
+(( ${+_comps} )) && _comps[zplugin]=_zplugin
+
+# Load configs
+for config (~/.zsh/*.zsh) source $config
+
+# Load plugins
+zplugin ice pick"async.zsh"
+
+# Set prompt
+prompt morg
+
+# Init gpg-agent
+gpgconf --launch gpg-agent
+gpg-connect-agent updatestartuptty /bye 2>&1 >/dev/null

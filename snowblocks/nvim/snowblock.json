@@ -1,0 +1,19 @@
+[
+    {
+        "clean": ["~"]
+    },
+    {
+        "link": {
+            "~/.config/nvim/init.vim": {
+                "relative": true,
+                "create": true,
+                "path": "../vim/vimrc"
+            },
+            "~/.config/nvim/coc-settings.json": {
+                "relative": true,
+                "create": true,
+                "path": "coc-settings.json"
+            }
+        }
+    }
+]

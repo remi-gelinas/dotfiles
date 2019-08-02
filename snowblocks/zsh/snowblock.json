@@ -1,0 +1,15 @@
+[
+    {
+        "clean": ["~"]
+    },
+    {
+        "link": {
+            "~/.zshrc": {
+                "relative": true
+            },
+            "~/.zsh": {
+                "relative": true
+            }
+        }
+    }
+]

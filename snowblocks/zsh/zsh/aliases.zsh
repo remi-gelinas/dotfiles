@@ -1,0 +1,30 @@
+# General aliases
+alias c="clear"
+
+#Vim aliases
+alias vi="nvim"
+alias v="vi"
+
+# Git aliases
+alias g="git"
+alias ga="g add"
+alias gb="g branch"
+alias gc="g commit"
+alias gs="g status"
+alias gd="g diff"
+alias gl="g log"
+alias gf="g fetch"
+alias gm="g merge"
+alias gr="g rebase"
+alias gri="gr -i"
+alias grst="g reset"
+alias gps="g push"
+alias gpl="g pull"
+alias gu="g unstage"
+alias gg="g graph"
+alias ggg="g graphgpg"
+alias gco="g checkout"
+alias gcs="g commit -S -m"
+alias gbi="g bisect"
+alias gbis="g bisect start"
+alias gbir="g bisect reset"

@@ -1,0 +1,48 @@
+[submodule "coc.nvim"]
+	path = coc.nvim
+	url = ./snowblocks/vim/vim/pack/minpac/start/coc.nvim
+[submodule "snowblocks/vim/vim/pack/minpac/start/coc.nvim"]
+	path = snowblocks/vim/vim/pack/minpac/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/defx.nvim"]
+	path = snowblocks/vim/vim/pack/minpac/start/defx.nvim
+	url = https://github.com/Shougo/defx.nvim.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/fzf.vim"]
+	path = snowblocks/vim/vim/pack/minpac/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/git-messenger.vim"]
+	path = snowblocks/vim/vim/pack/minpac/start/git-messenger.vim
+	url = https://github.com/rhysd/git-messenger.vim.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/nerdcommenter"]
+	path = snowblocks/vim/vim/pack/minpac/start/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/nord-vim"]
+	path = snowblocks/vim/vim/pack/minpac/start/nord-vim
+	url = https://github.com/arcticicestudio/nord-vim.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/vim-airline"]
+	path = snowblocks/vim/vim/pack/minpac/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/vim-devicons"]
+	path = snowblocks/vim/vim/pack/minpac/start/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/vim-elixir"]
+	path = snowblocks/vim/vim/pack/minpac/start/vim-elixir
+	url = https://github.com/elixir-editors/vim-elixir.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/vim-fugitive"]
+	path = snowblocks/vim/vim/pack/minpac/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/vim-mix-format"]
+	path = snowblocks/vim/vim/pack/minpac/start/vim-mix-format
+	url = https://github.com/mhinz/vim-mix-format.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/vim-reason-plus"]
+	path = snowblocks/vim/vim/pack/minpac/start/vim-reason-plus
+	url = https://github.com/reasonml-editor/vim-reason-plus.git
+[submodule "snowblocks/vim/vim/pack/minpac/opt/minpac"]
+	path = snowblocks/vim/vim/pack/minpac/opt/minpac
+	url = https://github.com/k-takata/minpac.git
+[submodule ".snowsaw"]
+	path = .snowsaw
+	url = https://github.com/arcticicestudio/snowsaw.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/lightline.vim"]
+	path = snowblocks/vim/vim/pack/minpac/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git

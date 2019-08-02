@@ -1,0 +1,12 @@
+[
+    {
+        "clean": ["~"]
+    },
+    {
+        "link": {
+            "~/.tmux.conf": {
+                "relative": true
+            }
+        }
+    }
+]

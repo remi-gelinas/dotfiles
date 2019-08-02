@@ -1,0 +1,15 @@
+[
+    {
+        "clean": ["~"]
+    },
+    {
+        "link": {
+            "~/.vimrc": {
+                "relative": true
+            },
+            "~/.vim": {
+                "relative": true
+            }
+        }
+    }
+]

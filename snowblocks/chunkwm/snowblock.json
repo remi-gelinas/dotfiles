@@ -1,0 +1,12 @@
+[
+    {
+        "clean": ["~"]
+    },
+    {
+        "link": {
+            "~/.chunkwmrc": {
+                "relative": true
+            }
+        }
+    }
+]
