@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://cdn.rawgit.com/arcticicestudio/igloo/trunk/assets/morgrimm-logo.svg" />
+    <img src="assets/morgrimm-logo.svg" />
 </p>
 
 <p align="center">
