@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://img.shields.io/static/v1?label=Platforms&message=MacOS%20|%20Linux%20|%20Windows&color=9cf&style=for-the-badge" />
+	<img src="https://img.shields.io/static/v1?label=Platforms&message=MacOS&color=9cf&style=for-the-badge" />
 </p>
 
 <p align="center">
