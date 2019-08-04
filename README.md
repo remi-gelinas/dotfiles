@@ -5,8 +5,8 @@
 ------------------
 
 <p align="center">
-	<img src="https://img.shields.io/static/v1?label=Platforms&message=MacOS&color=9cf&style=for-the-badge" />
-    <img src="https://img.shields.io/github/commit-activity/m/morgrimm/dotfiles?color=9cf&label=Commits&style=for-the-badge" />
+	<img src="https://img.shields.io/static/v1?label=Platforms&message=MacOS&color=blue&style=for-the-badge" />
+    <img src="https://img.shields.io/github/commit-activity/m/morgrimm/dotfiles?color=blue&label=Commits&style=for-the-badge" />
 </p>
 
 <p align="center">
