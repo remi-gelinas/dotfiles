@@ -6,6 +6,9 @@
 
 <p align="center">
 	<img src="https://img.shields.io/static/v1?label=Platforms&message=MacOS&color=9cf&style=for-the-badge" />
+    <a href="LICENSE.md">
+	    <img src="https://img.shields.io/static/v1?label=License&message=GPL&color=9cf&style=for-the-badge" />
+    </a>
 </p>
 
 <p align="center">
