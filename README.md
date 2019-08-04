@@ -2,6 +2,8 @@
     <img src="assets/morgrimm-logo.svg" width="150px" height="150px" />
 </p>
 
+------------------
+
 <p align="center">
 	<img src="https://img.shields.io/static/v1?label=Platforms&message=MacOS&color=9cf&style=for-the-badge" />
 </p>
