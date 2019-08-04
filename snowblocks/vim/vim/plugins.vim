@@ -26,6 +26,7 @@ else
     call minpac#add('elixir-editors/vim-elixir')
     call minpac#add('mhinz/vim-mix-format')
     call minpac#add('arcticicestudio/nord-vim')
+    call minpac#add('mhinz/vim-signify')
 endif
 
 command! PackUpdate packadd minpac | source $MYVIMRC | call minpac#update('', {'do': 'call minpac#status()'})

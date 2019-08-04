@@ -46,3 +46,6 @@
 [submodule "snowblocks/vim/vim/pack/minpac/start/lightline.vim"]
 	path = snowblocks/vim/vim/pack/minpac/start/lightline.vim
 	url = https://github.com/itchyny/lightline.vim.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/vim-signify"]
+	path = snowblocks/vim/vim/pack/minpac/start/vim-signify
+	url = https://github.com/mhinz/vim-signify.git
