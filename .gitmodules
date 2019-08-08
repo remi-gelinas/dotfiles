@@ -49,3 +49,6 @@
 [submodule "snowblocks/vim/vim/pack/minpac/start/vim-signify"]
 	path = snowblocks/vim/vim/pack/minpac/start/vim-signify
 	url = https://github.com/mhinz/vim-signify.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/vim-tmux-navigator"]
+	path = snowblocks/vim/vim/pack/minpac/start/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git

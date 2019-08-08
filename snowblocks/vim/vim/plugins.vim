@@ -27,6 +27,7 @@ else
     call minpac#add('mhinz/vim-mix-format')
     call minpac#add('arcticicestudio/nord-vim')
     call minpac#add('mhinz/vim-signify')
+    call minpac#add('christoomey/vim-tmux-navigator')
 endif
 
 command! PackUpdate packadd minpac | source $MYVIMRC | call minpac#update('', {'do': 'call minpac#status()'})
