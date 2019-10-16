@@ -1,6 +1,3 @@
-[submodule "coc.nvim"]
-	path = coc.nvim
-	url = ./snowblocks/vim/vim/pack/minpac/start/coc.nvim
 [submodule "snowblocks/vim/vim/pack/minpac/start/coc.nvim"]
 	path = snowblocks/vim/vim/pack/minpac/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
@@ -52,3 +49,6 @@
 [submodule "snowblocks/vim/vim/pack/minpac/start/vim-tmux-navigator"]
 	path = snowblocks/vim/vim/pack/minpac/start/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/vim-toml"]
+	path = snowblocks/vim/vim/pack/minpac/start/vim-toml
+	url = https://github.com/cespare/vim-toml.git
