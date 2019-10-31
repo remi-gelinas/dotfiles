@@ -1,0 +1,21 @@
+{
+  "name": "dotfiles",
+  "version": "0.0.0",
+  "description": "My personal dotfiles.",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morgrimm/dotfiles.git"
+  },
+  "author": "Morgrimm <mail@remigelin.as>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/morgrimm/dotfiles/issues"
+  },
+  "homepage": "https://github.com/morgrimm/dotfiles#readme",
+  "devDependencies": {
+    "husky": "3.0.4",
+    "commitlint": "8.1.0",
+    "@commitlint/config-conventional": "8.1.0"
+  }
+}

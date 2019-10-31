@@ -1,0 +1,6 @@
+# MacOS system junks
+.DS_Store
+
+# NPM junk
+node_modules
+package-lock.json
