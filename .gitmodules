@@ -52,3 +52,33 @@
 [submodule "snowblocks/vim/vim/pack/minpac/start/vim-toml"]
 	path = snowblocks/vim/vim/pack/minpac/start/vim-toml
 	url = https://github.com/cespare/vim-toml.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/coc-diagnostic"]
+	path = snowblocks/vim/vim/pack/minpac/start/coc-diagnostic
+	url = https://github.com/iamcco/coc-diagnostic.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/coc-elixir"]
+	path = snowblocks/vim/vim/pack/minpac/start/coc-elixir
+	url = https://github.com/amiralies/coc-elixir.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/coc-eslint"]
+	path = snowblocks/vim/vim/pack/minpac/start/coc-eslint
+	url = https://github.com/neoclide/coc-eslint.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/coc-go"]
+	path = snowblocks/vim/vim/pack/minpac/start/coc-go
+	url = https://github.com/josa42/coc-go.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/coc-jest"]
+	path = snowblocks/vim/vim/pack/minpac/start/coc-jest
+	url = https://github.com/neoclide/coc-jest.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/coc-json"]
+	path = snowblocks/vim/vim/pack/minpac/start/coc-json
+	url = https://github.com/neoclide/coc-json.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/coc-prettier"]
+	path = snowblocks/vim/vim/pack/minpac/start/coc-prettier
+	url = https://github.com/neoclide/coc-prettier.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/coc-rls"]
+	path = snowblocks/vim/vim/pack/minpac/start/coc-rls
+	url = https://github.com/neoclide/coc-rls.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/coc-tslint-plugin"]
+	path = snowblocks/vim/vim/pack/minpac/start/coc-tslint-plugin
+	url = https://github.com/neoclide/coc-tslint-plugin.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/coc-tsserver"]
+	path = snowblocks/vim/vim/pack/minpac/start/coc-tsserver
+	url = https://github.com/neoclide/coc-tsserver.git

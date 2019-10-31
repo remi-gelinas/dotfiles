@@ -15,7 +15,21 @@ else
       call minpac#add('roxma/vim-hug-neovim-rpc')
     endif
 
+    " CoC and extensions
     call minpac#add('neoclide/coc.nvim', { 'branch': 'release' })
+
+    call minpac#add('neoclide/coc-eslint', { 'do': 'yarn install --frozen-lockfile' })
+    call minpac#add('neoclide/coc-jest', { 'do': 'yarn install --frozen-lockfile' })
+    call minpac#add('neoclide/coc-prettier', { 'do': 'yarn install --frozen-lockfile' })
+    call minpac#add('neoclide/coc-json', { 'do': 'yarn install --frozen-lockfile' })
+    call minpac#add('neoclide/coc-rls', { 'do': 'yarn install --frozen-lockfile' })
+    call minpac#add('neoclide/coc-tslint-plugin', { 'do': 'yarn install --frozen-lockfile' })
+    call minpac#add('neoclide/coc-tsserver', { 'do': 'yarn install --frozen-lockfile' })
+    call minpac#add('neoclide/coc-tsserver', { 'do': 'yarn install --frozen-lockfile' })
+    call minpac#add('josa42/coc-go', { 'do': 'yarn install --frozen-lockfile' })
+    call minpac#add('amiralies/coc-elixir', { 'do': 'yarn install --frozen-lockfile' })
+    call minpac#add('iamcco/coc-diagnostic', { 'do': 'yarn install --frozen-lockfile' })
+
     call minpac#add('itchyny/lightline.vim')
     call minpac#add('ryanoasis/vim-devicons')
     call minpac#add('junegunn/fzf.vim')
