@@ -11,6 +11,10 @@ autoload -Uz promptinit; promptinit
 # System config
 export LANG="en_CA.UTF-8"
 
+# Set default editor
+export VISUAL=nvim
+export EDITOR="$VISUAL"
+
 # GPG
 export GPG_TTY=$(tty)
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
