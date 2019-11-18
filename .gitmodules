@@ -82,3 +82,6 @@
 [submodule "snowblocks/vim/vim/pack/minpac/start/coc-tsserver"]
 	path = snowblocks/vim/vim/pack/minpac/start/coc-tsserver
 	url = https://github.com/neoclide/coc-tsserver.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/nvim-lsp"]
+	path = snowblocks/vim/vim/pack/minpac/start/nvim-lsp
+	url = git@github.com:neovim/nvim-lsp.git

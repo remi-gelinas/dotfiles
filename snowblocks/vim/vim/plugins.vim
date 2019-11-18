@@ -9,6 +9,7 @@ else
 
     if has('nvim')
       call minpac#add('Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' })
+      call minpac#add('nvim/nvim-lsp')
     else
       call minpac#add('Shougo/defx.nvim')
       call minpac#add('roxma/nvim-yarp')
