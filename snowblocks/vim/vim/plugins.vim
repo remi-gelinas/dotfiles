@@ -14,6 +14,8 @@ else
       call minpac#add('Shougo/defx.nvim')
       call minpac#add('roxma/nvim-yarp')
       call minpac#add('roxma/vim-hug-neovim-rpc')
+      call minpac#add("prabirshrestha/async.vim")
+      call minpac#add("prabirshrestha/vim-lsp")
     endif
 
     " CoC and extensions

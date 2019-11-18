@@ -85,3 +85,9 @@
 [submodule "snowblocks/vim/vim/pack/minpac/start/nvim-lsp"]
 	path = snowblocks/vim/vim/pack/minpac/start/nvim-lsp
 	url = git@github.com:neovim/nvim-lsp.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/vim-lsp"]
+	path = snowblocks/vim/vim/pack/minpac/start/vim-lsp
+	url = git@github.com:prabirshrestha/vim-lsp.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/async.vim"]
+	path = snowblocks/vim/vim/pack/minpac/start/async.vim
+	url = git@github.com:prabirshrestha/async.vim.git
