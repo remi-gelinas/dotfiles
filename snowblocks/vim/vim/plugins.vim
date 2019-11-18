@@ -38,6 +38,7 @@ else
     call minpac#add('scrooloose/nerdcommenter')
     call minpac#add('rhysd/git-messenger.vim')
     call minpac#add('tpope/vim-fugitive')
+    call minpac#add('tpope/vim-surround')
     call minpac#add('reasonml-editor/vim-reason-plus')
     call minpac#add('elixir-editors/vim-elixir')
     call minpac#add('mhinz/vim-mix-format')
@@ -45,6 +46,8 @@ else
     call minpac#add('mhinz/vim-signify')
     call minpac#add('christoomey/vim-tmux-navigator')
     call minpac#add('cespare/vim-toml')
+    call minpac#add('leafgarland/typescript-vim')
+    call minpac#add('peitalin/vim-jsx-typescript')
 endif
 
 command! PackUpdate packadd minpac | source $MYVIMRC | call minpac#update('', {'do': 'call minpac#status()'})

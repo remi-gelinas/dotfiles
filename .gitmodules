@@ -91,3 +91,12 @@
 [submodule "snowblocks/vim/vim/pack/minpac/start/async.vim"]
 	path = snowblocks/vim/vim/pack/minpac/start/async.vim
 	url = git@github.com:prabirshrestha/async.vim.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/typescript-vim"]
+	path = snowblocks/vim/vim/pack/minpac/start/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/vim-jsx-typescript"]
+	path = snowblocks/vim/vim/pack/minpac/start/vim-jsx-typescript
+	url = git@github.com:peitalin/vim-jsx-typescript.git
+[submodule "snowblocks/vim/vim/pack/minpac/start/vim-surround"]
+	path = snowblocks/vim/vim/pack/minpac/start/vim-surround
+	url = git@github.com:tpope/vim-surround.git
