@@ -4,3 +4,6 @@
 # NPM junk
 node_modules
 package-lock.json
+
+# vim plugins
+snowblocks/vim/vim/pack/minpac/start
