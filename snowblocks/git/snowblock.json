@@ -1,0 +1,12 @@
+[
+  {
+    "clean": ["~"]
+  },
+  {
+    "link": {
+      "~/.gitconfig": {
+        "relative": true
+      }
+    }
+  }
+]
