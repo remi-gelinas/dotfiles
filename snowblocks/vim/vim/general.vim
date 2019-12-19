@@ -13,3 +13,7 @@ command! -bang -nargs=* Ag call fzf#vim#ag(<q-args>, {'options': '--delimiter : 
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
+
+" Bindings
+let mapleader=" "
+nnoremap <SPACE> <Nop>
