@@ -1,0 +1,12 @@
+[
+  {
+    "clean": ["~"]
+  },
+  {
+    "link": {
+      "~/.yabairc": {
+        "relative": true
+      }
+    }
+  }
+]
