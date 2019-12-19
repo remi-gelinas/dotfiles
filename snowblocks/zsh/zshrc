@@ -20,3 +20,8 @@ prompt morg
 # Init gpg-agent
 gpgconf --launch gpg-agent
 gpg-connect-agent updatestartuptty /bye 2>&1 >/dev/null
+
+# Launch tmux
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+  exec tmux
+fi
