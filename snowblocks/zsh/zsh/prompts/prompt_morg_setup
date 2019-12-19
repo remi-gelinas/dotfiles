@@ -1,15 +1,18 @@
 morg_prompt() {
-    echo '$prompt_newline↳'
+    local CONNECTBAR_DOWN=$'\u250C\u2500\u257C'
+    local CONNECTBAR_UP=$'\u2514\u2500\u257C'
+    local ARROW=$'\u25B6'
+    local GITSPLITBAR=$'\u2570\u257C'
+    local SPLITBAR=$'\u257E\u2500\u257C'
+    local LOGO=$'\u0471'
+
+    echo "${CONNECTBAR_DOWN}$(pwd)${SPLITBAR}${SPLITBAR}${SPLITBAR}\n$CONNECTBAR_UP$ARROW"
 }
 
 prompt_morg_setup() {
     prompt_opts=(cr percent sp subst)
 
     setopt noprompt{bang,cr,percent,subst} "prompt${^prompt_opts[@]}"
-
-    if [[ -z $prompt_newline ]]; then
-        typeset -g prompt_newline=$'\n%{\r%}'
-    fi
 
     autoload -Uz add-zsh-hook
 
