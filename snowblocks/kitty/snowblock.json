@@ -1,0 +1,14 @@
+[
+  {
+    "clean": ["~"]
+  },
+  {
+    "link": {
+      "~/.config/kitty/kitty.conf": {
+        "create": true,
+        "relative": true,
+        "path": "kitty.conf"
+      }
+    }
+  }
+]
