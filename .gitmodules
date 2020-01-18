@@ -4,3 +4,6 @@
 [submodule ".snowsaw"]
 	path = .snowsaw
 	url = https://github.com/arcticicestudio/snowsaw.git
+[submodule "dot_vim/pack/minpac/opt/minpac"]
+	path = dot_vim/pack/minpac/opt/minpac
+	url = https://github.com/k-takata/minpac.git
