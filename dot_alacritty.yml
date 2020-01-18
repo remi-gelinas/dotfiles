@@ -67,18 +67,18 @@ tabspaces: 2
 
 font:
   normal:
-    family: 'IBM Plex Mono'
+    family: 'Iosevka'
     style: Regular
 
   bold:
-    family: 'IBM Plex Mono'
+    family: 'Iosevka'
     style: Bold
 
   italic:
-    family: 'IBM Plex Mono'
+    family: 'Iosevka'
     style: Italic
 
-  size: 14.0
+  size: 16.0
 
   offset:
     x: 0
