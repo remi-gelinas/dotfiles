@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 set -e
 
-SNOWSAW_DIR=".snowsaw"
-SNOWSAW_BIN="bin/snowsaw"
+# Pull and run the Chezmoi binary install script
+curl -sfL https://git.io/chezmoi | sh
 
-SNOWBLOCKS_BASE_DIR_NAME="snowblocks"
-SNOWBLOCKSDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/$SNOWBLOCKS_BASE_DIR_NAME"
+./bin/chezmoi apply
 
-"${SNOWSAW_DIR}/${SNOWSAW_BIN}" -s "${SNOWBLOCKSDIR}" "${@}"
+echo "Dotfiles applied!"
