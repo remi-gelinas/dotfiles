@@ -10,3 +10,5 @@ dot_vim/pack/minpac/start
 
 # zsh completions
 dot_zsh/completion
+
+bin
