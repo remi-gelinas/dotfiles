@@ -6,4 +6,4 @@ node_modules
 package-lock.json
 
 # vim plugins
-snowblocks/vim/vim/pack/minpac/start
+dot_vim/pack/minpac/start
