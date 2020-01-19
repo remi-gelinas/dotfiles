@@ -4,6 +4,6 @@ set -e
 # Pull and run the Chezmoi binary install script
 curl -sfL https://git.io/chezmoi | sh
 
-./bin/chezmoi apply
+./bin/chezmoi apply --source ./src
 
 echo "Dotfiles applied!"
