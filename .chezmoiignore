@@ -1,0 +1,20 @@
+# General repo stuff
+README.md
+LICENSE.md
+assets
+bootstrap
+
+# NPM stuff
+package.json
+package-lock.json
+commitlint.config.js
+node_modules
+
+# vim plugins
+dot_vim/pack/minpac/start
+
+# zsh
+dot_zsh/zsh/completion
+
+# Chezmoi binaries
+bin
