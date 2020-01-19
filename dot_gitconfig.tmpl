@@ -1,0 +1,26 @@
+[alias]
+    # Sign all commits up to and including the specified hash
+    signto = "!f() { git rebase --exec 'git commit --amend --no-edit -n -S' -i $1^1; }; f"
+
+    lg = !"git lg1"
+    lg1 = !"git lg1-specific --all --show-signature"
+    lg2 = !"git lg2-specific --all --show-signature"
+    lg3 = !"git lg3-specific --all --show-signature"
+    lg1-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'
+    lg2-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
+    lg3-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+
+    bi = "bisect"
+    bis = "bisect start"
+    bir = "bisect reset"
+
+[user]
+    name = "{{ .user.name }}"
+    email = "{{ .user.email }}"
+    signingkey = "{{ .user.signingkey }}"
+
+[commit]
+    gpgsign=true
+
+[include]
+    path = "~/.gitconfig.{{ .chezmoi.hostname }}"
