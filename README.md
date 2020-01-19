@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/morgrimm-logo.svg" width="150px" height="150px" />
+    <img src="assets/logo.svg" width="150px" height="150px" />
 </p>
 
 ------------------
