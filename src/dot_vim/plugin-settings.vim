@@ -10,6 +10,8 @@ if has('nvim')
 
   lua <<
   lsp = require'nvim_lsp'
+
+  lsp.rust_analyzer.setup({})
 .
 endif
 
