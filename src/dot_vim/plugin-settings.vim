@@ -12,6 +12,9 @@ if has('nvim')
   lsp = require'nvim_lsp'
 
   lsp.rust_analyzer.setup({})
+  lsp.tsserver.setup({
+    cmd = { "typescript-language-server", "--stdio" }
+  })
 .
 endif
 
