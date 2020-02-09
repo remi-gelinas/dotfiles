@@ -1,9 +1,19 @@
 #!/usr/bin/env bash
 set -e
 
-# Pull and run the Chezmoi binary install script
-curl -sfL https://git.io/chezmoi | sh
 
-./bin/chezmoi apply --source ./src
+# Pull existing Chezmoi binary or install if needed
+if command -v chezmoi >/dev/null 2>&1; then
+  echo "Found chezmoi binary!"
+
+  CHEZMOI_BIN=chezmoi
+else
+  echo "No chezmoi binary found, installing..."
+
+  curl -sfL https://git.io/chezmoi | sh
+  CHEZMOI_BIN=.bin/chezmoi
+fi
+
+$CHEZMOI_BIN apply --source ./src -v
 
 echo "Dotfiles applied!"
