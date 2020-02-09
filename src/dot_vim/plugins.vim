@@ -3,8 +3,7 @@ set packpath^=$HOME/.vim
 
 packadd minpac
 
-if !exists('*minpac#init')
-else
+if exists('*minpac#init')
     call minpac#init()
 
     if has('nvim')
