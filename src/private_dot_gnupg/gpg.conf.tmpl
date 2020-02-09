@@ -1,0 +1,39 @@
+#-----------------------------
+# Default
+#-----------------------------
+
+default-key {{.gpg.default_key}}
+
+#-----------------------------
+# General
+#-----------------------------
+
+no-emit-version
+no-comments
+verify-options show-uid-validity
+use-agent
+keyid-format 0xlong
+with-fingerprint
+with-subkey-fingerprints
+
+#-----------------------------
+# Keyserver
+#-----------------------------
+
+keyserver {{.gpg.keyserver}}
+keyserver-options no-honor-keyserver-url
+keyserver-options include-revoked
+
+{{- if (hasKey .gpg "keyserver_options") -}}
+  {{- range .gpg.keyserver_options}}
+keyserver-options {{.}}
+  {{- end -}}
+{{- end}}
+
+#-----------------------------
+# Algorithms and Ciphers
+#-----------------------------
+personal-cipher-preferences AES256 AES192 AES CAST5
+personal-digest-preferences SHA512 SHA384 SHA256 SHA224
+cert-digest-algo SHA512
+default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
