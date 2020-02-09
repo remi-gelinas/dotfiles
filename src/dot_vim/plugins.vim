@@ -51,6 +51,7 @@ if exists('*minpac#init')
     call minpac#add('leafgarland/typescript-vim')
     call minpac#add('peitalin/vim-jsx-typescript')
     call minpac#add('rust-lang/rust.vim')
+    call minpac#add('vim-syntastic/syntastic')
 endif
 
 command! PackUpdate packadd minpac | source $MYVIMRC | call minpac#update('', {'do': 'call minpac#status()'})
