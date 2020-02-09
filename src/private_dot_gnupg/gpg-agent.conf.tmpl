@@ -1,0 +1,5 @@
+enable-ssh-support
+
+{{if (hasKey .gpg "agent") and (hasKey .gpg.agent "pinentry") -}}
+  pinentry-program {{ .gpg.agent.pinentry }}
+{{end -}}
