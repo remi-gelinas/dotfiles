@@ -1,3 +1,6 @@
+# Export a templated home directory
+export HOME={{ .chezmoi.homedir }}
+
 # Load Homebrew shell completions; this is done here instead of in environment.zsh because it needs to be done before zplugin is bootstrapped
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
@@ -23,5 +26,5 @@ gpg-connect-agent updatestartuptty /bye 2>&1 >/dev/null
 
 # Launch tmux
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-  exec tmux
+  exec tmux new -A -s main
 fi
