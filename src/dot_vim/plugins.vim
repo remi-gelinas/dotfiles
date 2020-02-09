@@ -8,7 +8,7 @@ if exists('*minpac#init')
 
     if has('nvim')
       call minpac#add('Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' })
-      call minpac#add('nvim/nvim-lsp')
+      call minpac#add('neovim/nvim-lsp')
 
       " CoC and extensions
       call minpac#add('neoclide/coc.nvim', { 'branch': 'release' })
