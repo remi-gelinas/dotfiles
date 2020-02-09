@@ -2,6 +2,17 @@
 set updatetime=300
 colorscheme nord
 
+" neovim
+if has('nvim')
+
+  " Engage LSPs
+  packadd nvim-lsp
+
+  lua <<
+  lsp = require'nvim_lsp'
+.
+endif
+
 " fzf.vim
 set rtp+=/usr/local/opt/fzf
 
