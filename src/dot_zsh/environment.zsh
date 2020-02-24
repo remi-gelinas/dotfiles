@@ -25,5 +25,4 @@ export CARGO_HOME=$HOME/.cargo
 export PATH=$CARGO_HOME/bin:$PATH
 
 # asdf-vm
-# TODO: Investigate making this cross-platform for Linux. Currently this only supports Homebrew, which has iffy package parity in Linux
-. $(brew --prefix asdf)/asdf.sh
+source $HOME/.asdf/asdf.sh
