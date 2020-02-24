@@ -1,15 +1,15 @@
 # Export a templated home directory
 export HOME={{ .chezmoi.homedir }}
 
-# Load Homebrew shell completions; this is done here instead of in environment.zsh because it needs to be done before zplugin is bootstrapped
+# Load Homebrew shell completions; this is done here instead of in environment.zsh because it needs to be done before zinit is bootstrapped
 if (( $+commands[brew] )); then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 fi
 
-# Zplugin bootstrapping
-source "$HOME/.zplugin/bin/zplugin.zsh"
-autoload -Uz _zplugin
-(( ${+_comps} )) && _comps[zplugin]=_zplugin
+# Zinit bootstrapping
+source "$HOME/.zinit/bin/zinit.zsh"
+autoload -Uz _zinit
+(( ${+_comps} )) && _comps[zinit]=_zinit
 
 # Load configs
 for config (~/.zsh/*.zsh) source $config
