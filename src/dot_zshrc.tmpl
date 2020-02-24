@@ -12,7 +12,7 @@ autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
 # Load configs
-for config (~/.zsh/*.zsh) source $config
+for config ($HOME/.zsh/*.zsh) source $config
 
 # Set prompt
 prompt morg
