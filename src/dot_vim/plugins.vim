@@ -8,20 +8,6 @@ if exists('*minpac#init')
 
     if has('nvim')
       call minpac#add('neovim/nvim-lsp')
-
-      " CoC and extensions
-      call minpac#add('neoclide/coc.nvim', { 'branch': 'release' })
-  
-      call minpac#add('neoclide/coc-eslint', { 'do': {->system('yarn install --frozen-lockfile')} })
-      call minpac#add('neoclide/coc-jest', { 'do': {->system('yarn install --frozen-lockfile')} })
-      call minpac#add('neoclide/coc-prettier', { 'do': {->system('yarn install --frozen-lockfile')} })
-      call minpac#add('neoclide/coc-json', { 'do': {->system('yarn install --frozen-lockfile')} })
-      call minpac#add('neoclide/coc-rls', { 'do': {->system('yarn install --frozen-lockfile')} })
-      call minpac#add('neoclide/coc-tslint-plugin', { 'do': {->system('yarn install --frozen-lockfile')} })
-      call minpac#add('neoclide/coc-tsserver', { 'do': {->system('yarn install --frozen-lockfile')} })
-      call minpac#add('josa42/coc-go', { 'do': {->system('yarn install --frozen-lockfile')} })
-      call minpac#add('amiralies/coc-elixir', { 'do': {->system('yarn install --frozen-lockfile')} })
-      call minpac#add('iamcco/coc-diagnostic', { 'do': {->system('yarn install --frozen-lockfile')} })
     else
       call minpac#add("prabirshrestha/async.vim")
       call minpac#add("prabirshrestha/vim-lsp")
