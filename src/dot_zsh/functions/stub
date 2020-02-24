@@ -1,0 +1,9 @@
+local -a names=("${(@s: :)${1}}")
+
+for name in $names[@]; do
+  unalias "${name}"
+done
+
+source $2
+shift 2
+$*

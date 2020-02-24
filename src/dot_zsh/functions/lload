@@ -1,0 +1,6 @@
+local script=$1
+shift
+
+for cmd in "$@"; do
+  alias $cmd="stub \"$*\" $script $cmd"
+done
