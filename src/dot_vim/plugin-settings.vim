@@ -11,7 +11,7 @@ if has('nvim')
   lua <<
   lsp = require'nvim_lsp'
 
-  lsp.rust_analyzer.setup({})
+  lsp.rls.setup({})
   lsp.tsserver.setup({
     cmd = { "typescript-language-server", "--stdio" }
   })
