@@ -7,7 +7,6 @@ if exists('*minpac#init')
     call minpac#init()
 
     if has('nvim')
-      call minpac#add('Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' })
       call minpac#add('neovim/nvim-lsp')
 
       " CoC and extensions
@@ -24,9 +23,6 @@ if exists('*minpac#init')
       call minpac#add('amiralies/coc-elixir', { 'do': {->system('yarn install --frozen-lockfile')} })
       call minpac#add('iamcco/coc-diagnostic', { 'do': {->system('yarn install --frozen-lockfile')} })
     else
-      call minpac#add('Shougo/defx.nvim')
-      call minpac#add('roxma/nvim-yarp')
-      call minpac#add('roxma/vim-hug-neovim-rpc')
       call minpac#add("prabirshrestha/async.vim")
       call minpac#add("prabirshrestha/vim-lsp")
     endif
