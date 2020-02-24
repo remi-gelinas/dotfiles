@@ -29,7 +29,3 @@ let g:lightline = {
 " vim-mix-format
 let g:mix_format_on_save = 1
 
-" ack.vim
-if executable('ag')
-  let g:ackprg = 'ag --vimgrep'
-endif

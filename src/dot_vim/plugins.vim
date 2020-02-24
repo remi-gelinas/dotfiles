@@ -14,7 +14,6 @@ if exists('*minpac#init')
     endif
 
 
-    call minpac#add('mileszs/ack.vim')
     call minpac#add('itchyny/lightline.vim')
     call minpac#add('ryanoasis/vim-devicons')
     call minpac#add('junegunn/fzf.vim')
