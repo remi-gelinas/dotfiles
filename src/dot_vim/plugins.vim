@@ -33,6 +33,7 @@ if exists('*minpac#init')
     call minpac#add('yuezk/vim-js')
     call minpac#add('MaxMEllon/vim-jsx-pretty')
     call minpac#add('dense-analysis/ale')
+    call minpac#add('lepture/vim-jinja')
 endif
 
 command! PackUpdate packadd minpac | source $MYVIMRC | call minpac#update('', {'do': 'call minpac#status()'})
