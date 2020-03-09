@@ -29,9 +29,7 @@ if exists('*minpac#init')
     call minpac#add('christoomey/vim-tmux-navigator')
     call minpac#add('cespare/vim-toml')
     call minpac#add('leafgarland/typescript-vim')
-    call minpac#add('peitalin/vim-jsx-typescript')
     call minpac#add('rust-lang/rust.vim')
-    call minpac#add('vim-syntastic/syntastic')
 endif
 
 command! PackUpdate packadd minpac | source $MYVIMRC | call minpac#update('', {'do': 'call minpac#status()'})
