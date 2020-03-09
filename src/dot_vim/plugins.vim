@@ -30,6 +30,7 @@ if exists('*minpac#init')
     call minpac#add('cespare/vim-toml')
     call minpac#add('leafgarland/typescript-vim')
     call minpac#add('rust-lang/rust.vim')
+    call minpac#add('yuezk/vim-js')
 endif
 
 command! PackUpdate packadd minpac | source $MYVIMRC | call minpac#update('', {'do': 'call minpac#status()'})
