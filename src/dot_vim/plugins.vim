@@ -35,6 +35,7 @@ if exists('*minpac#init')
     call minpac#add('dense-analysis/ale')
     call minpac#add('lepture/vim-jinja')
     call minpac#add('OmniSharp/omnisharp-vim')
+    call minpac#add('OrangeT/vim-csharp')
 endif
 
 command! PackUpdate packadd minpac | source $MYVIMRC | call minpac#update('', {'do': 'call minpac#status()'})
